@@ -6,6 +6,7 @@ class listasimple():
         self.size =0
     def insertlast(self,nombre,edad,periodos,m, infectadas, tabla0):
 
+
         newpaciente=Paciente(nombre,edad,periodos,m, infectadas, tabla0)
         self.size += 1
         if self.primero is None:
